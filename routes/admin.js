@@ -858,7 +858,7 @@ router.get('/manage/installTemp',function(req,res){
                     res.end('您已安装该模板');
                 }
 
-                fs.mkdir(DOWNLOAD_DIR,0777,function(err){
+                fs.mkdir(DOWNLOAD_DIR,"0x777",function(err){
                     if(err){
                         console.log(err);
                     }
@@ -975,7 +975,7 @@ router.post('/manage/updateCMSTemplate',function(req,res){
                         return;
                     }
 
-                    fs.mkdir(DOWNLOAD_DIR,0777,function(err1) {
+                    fs.mkdir(DOWNLOAD_DIR,"0x777",function(err1) {
                         if (err1) {
                             console.log(err1);
                         }

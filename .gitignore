@@ -1,3 +1,5 @@
+.idea
+views/web/temp/**
 lib-cov
 *.seed
 *.log
